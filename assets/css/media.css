@@ -1,0 +1,26 @@
+@media(max-width:768px){
+    .container>.item{
+        background-color: grey;
+        width: 100%;
+    }
+    header{
+        padding: 20px;
+    }
+    header>nav>ul>li{
+        width: 100%;
+        text-align: center;
+    }
+    header>nav>ul>li:hover{
+        background-color: palevioletred;
+    }
+    header>nav>ul>li:hover a{
+        color: tan;
+    }
+}
+
+@media(max-width:768px) and (max-width:1024px){
+    .container>item{
+        background-color: blueviolet;
+
+    }
+}

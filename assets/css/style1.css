@@ -1,0 +1,46 @@
+.transition{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    transition: calc(1s + 1s);
+}
+.transition:hover{
+    background: linear-gradient(yellow,green);
+}
+
+/*BGCLIP*/
+.bgClip{
+    background: orangered;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    border: 5px dashed palegoldenrod;
+    transition: 2s;
+    background-clip: content-box;
+}
+.bgClip:hover{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.common{
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    background-color: crimson;
+    color: white;
+    transition: width 2s;
+    
+}
+.common:hover{
+    width: 100px;
+background-color: gold;
+}
+#d1{transition-timing-function: linear;}
+#d2{transition-timing-function: ease-in;}
+#d3{transition-timing-function: ease-out;}
+#d4{transition-timing-function: ease;}
+#d5{transition-timing-function: ease-in-out;}
+#d6{transition-timing-function: steps(6,jump-start);}
+#d7{transition-timing-function: cubic-bezier(0.5,0.7,0.8,0.1);}
+
